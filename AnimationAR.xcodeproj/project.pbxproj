@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		2F6A117B2602102300E3382E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6A117A2602102300E3382E /* AppDelegate.swift */; };
 		2F6A117D2602102300E3382E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6A117C2602102300E3382E /* ViewController.swift */; };
-		2F6A117F2602102300E3382E /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2F6A117E2602102300E3382E /* Experience.rcproject */; };
 		2F6A11822602102300E3382E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6A11802602102300E3382E /* Main.storyboard */; };
 		2F6A11842602102500E3382E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6A11832602102500E3382E /* Assets.xcassets */; };
 		2F6A11872602102500E3382E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6A11852602102500E3382E /* LaunchScreen.storyboard */; };
+		2F6A11902602103600E3382E /* deptford.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2F6A118F2602103500E3382E /* deptford.rcproject */; };
+		2F6A11932602104900E3382E /* White_Eagle_Fly.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2F6A11922602104900E3382E /* White_Eagle_Fly.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F6A11772602102300E3382E /* AnimationAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6A117A2602102300E3382E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F6A117C2602102300E3382E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2F6A117E2602102300E3382E /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		2F6A11812602102300E3382E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F6A11832602102500E3382E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F6A11862602102500E3382E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F6A11882602102500E3382E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6A118F2602103500E3382E /* deptford.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = deptford.rcproject; sourceTree = "<group>"; };
+		2F6A11922602104900E3382E /* White_Eagle_Fly.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = White_Eagle_Fly.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				2F6A117A2602102300E3382E /* AppDelegate.swift */,
 				2F6A117C2602102300E3382E /* ViewController.swift */,
-				2F6A117E2602102300E3382E /* Experience.rcproject */,
+				2F6A118F2602103500E3382E /* deptford.rcproject */,
+				2F6A11922602104900E3382E /* White_Eagle_Fly.usdz */,
 				2F6A11802602102300E3382E /* Main.storyboard */,
 				2F6A11832602102500E3382E /* Assets.xcassets */,
 				2F6A11852602102500E3382E /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6A11932602104900E3382E /* White_Eagle_Fly.usdz in Resources */,
 				2F6A11872602102500E3382E /* LaunchScreen.storyboard in Resources */,
 				2F6A11842602102500E3382E /* Assets.xcassets in Resources */,
 				2F6A11822602102300E3382E /* Main.storyboard in Resources */,
@@ -137,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6A11902602103600E3382E /* deptford.rcproject in Sources */,
 				2F6A117D2602102300E3382E /* ViewController.swift in Sources */,
 				2F6A117B2602102300E3382E /* AppDelegate.swift in Sources */,
-				2F6A117F2602102300E3382E /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
