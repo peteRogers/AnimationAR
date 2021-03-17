@@ -1,0 +1,1 @@
+# AnimationAR shows how to import a reality composer project into realityKit and to then add a USDZ model with a baked in animation. This model is then translated over time making it move away from the viewer. 
