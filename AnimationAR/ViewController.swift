@@ -46,7 +46,11 @@ class ViewController: UIViewController {
         //resize model
         entity!.transform.scale *= 0.1
         //play the models animation in a continuous loop
-        entity?.playAnimation((entity?.availableAnimations[0].repeat())!)
+        if #available(iOS 15.0, *) {
+            entity?.playAnimation((entity?.availableAnimations[0].repeat())!)
+        } else {
+            // Fallback on earlier versions
+        }
         //make a transform to translate models position over time
         var translationTransform = entity?.transform
         //set the translate position x, y, z

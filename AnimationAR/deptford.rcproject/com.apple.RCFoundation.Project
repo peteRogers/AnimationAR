@@ -189,66 +189,7 @@
                     }
                   },
                   "Cube" : null,
-                  "EEA5A51C-7081-435C-A0BC-594F6D7C7A3F" : {
-                    "overrides" : {
-                      "arguments" : [
-                        [
-                          "doubleSided",
-                          {
-                            "typeName" : "Bool",
-                            "value" : true
-                          }
-                        ],
-                        [
-                          "image",
-                          {
-                            "typeName" : "String",
-                            "value" : "image:dcb813f3ea0f35b91a2083e085112834\/thames.png"
-                          }
-                        ],
-                        [
-                          "maxDimension",
-                          {
-                            "typeName" : "Double",
-                            "value" : 0.14799999999999999
-                          }
-                        ]
-                      ],
-                      "factory" : {
-                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PosterAssetFactory",
-                        "version" : "1.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "FC1348D3-6807-4A91-B49A-CAC6B75F6924"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        6.0393733978271484,
-                        0,
-                        0,
-                        0,
-                        0,
-                        6.0393743515014648,
-                        0,
-                        0,
-                        0,
-                        0,
-                        6.0393733978271484,
-                        0,
-                        0,
-                        0.00014801115321461111,
-                        0,
-                        1
-                      ]
-                    }
-                  }
+                  "EEA5A51C-7081-435C-A0BC-594F6D7C7A3F" : null
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
